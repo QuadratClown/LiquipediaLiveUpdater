@@ -16,7 +16,6 @@ Behaviour:
 
 - links with hashtags like "#Results" will now direct to the underlieing page
 - clicking "new game" in the Live Updater will now automatically set a games winner
-- opening a live updater will set the match score to 0-0 if not already set
 
 Bugs:
 
