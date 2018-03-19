@@ -1,0 +1,157 @@
+Changelog Live Updater
+
+******************
+***** BETA 4 *****
+******************
+
+== General ==
+
+Functionality:
+
+- expanded the settings dialog to include all the keys of settings.xml
+- literals of a bracket can now be edited by rightclicking on the team text field -> "view literal"
+- added auto uploader, which will auto save the page every 45s
+
+Behaviour:
+
+- links with hashtags like "#Results" will now direct to the underlieing page
+- clicking "new game" in the Live Updater will now automatically set a games winner
+- opening a live updater will set the match score to 0-0 if not already set
+
+Bugs:
+
+- fixed a bug that prevented starting a live updater dialog after the game has been changed
+- editing the team textfield while it the team template is searched for will no longer prevent the template to be recognized
+
+== Rocket League ==
+
+Functionality:
+
+- OT can now be set directly within the Live Updater
+
+Bugs
+
+- literals of brackets are no longer deleted if they include a "BracketDesc" template
+
+== Overwatch ==
+
+Bugs
+
+- literals of brackets are no longer deleted if they include a "BracketDesc" template
+- fixed a bug that prevented some matchlists from opening
+
+******************
+***** BETA 3 *****
+******************
+
+== General ==
+
+Functionality:
+
+- added support for matchlists, thus group stage matches
+- added support for renaming titles
+- added auto uploader, which will auto save the page every 45s
+
+Behaviour:
+
+- the animation for sections is now disabled by default, but can be enabled in the new "settings" menu
+- opening and saving a page now has a loading animation to indicate if it still does something
+
+Bugs:
+
+- fixed a bug that prevented some pages from opening
+- opening a page will no longer result in the gui to freeze
+- launcher will now redirect to the right java version
+
+******************
+***** BETA 2 *****
+******************
+
+== General ==
+
+Functionality:
+
+- added support for 3rd place match of SETeamBrackets
+- added support for TeamBrackets with Qualifiers
+- added application icons
+- added teamIcons
+- added support for pages with multiple brackets
+
+- application is now wrapped inside an executable
+
+Behaviour:
+
+- pages are now divided in collapsible sections
+- map score is now set to 0-0 if a map is chosen
+- last opened game (Overwatch/Rocket League) will save to the settings as default
+- save location can now be chosen manually
+- empty templates can now be read (e.g. "{{8SETeamBracket}}") and will output an empty bracket when saved
+
+Bugs:
+
+- fixed a bug that prevented the win parameter to be set if it contained spaces
+- fixed a bug that allowed to save a page before being logged in
+
+******************
+***** BETA 3 *****
+******************
+
+== General ==
+
+Functionality:
+
+- added support for matchlists, thus group stage matches
+- added support for renaming titles
+- added auto uploader, which will auto save the page every 45s
+
+Behaviour:
+
+- the animation for sections is now disabled by default, but can be enabled in the new "settings" menu
+- opening and saving a page now has a loading animation to indicate if it still does something
+
+Bugs:
+
+- fixed a bug that prevented some pages from opening
+- opening a page will no longer result in the gui to freeze
+- launcher will now redirect to the right java version
+
+******************
+***** BETA 2 *****
+******************
+
+== General ==
+
+Functionality:
+
+- added support for 3rd place match of SETeamBrackets
+- added support for TeamBrackets with Qualifiers
+- added application icons
+- added teamIcons
+- added support for pages with multiple brackets
+
+- application is now wrapped inside an executable
+
+Behaviour:
+
+- pages are now divided in collapsible sections
+- map score is now set to 0-0 if a map is chosen
+- last opened game (Overwatch/Rocket League) will save to the settings as default
+- save location can now be chosen manually
+- empty templates can now be read (e.g. "{{8SETeamBracket}}") and will output an empty bracket when saved
+
+Bugs:
+
+- fixed a bug that prevented the win parameter to be set if it contained spaces
+- fixed a bug that allowed to save a page before being logged in
+
+******************
+***** BETA 1 *****
+******************
+
+== Overwatch ==
+
+- fixed a value in the settings.xml which prevented the "map*score" key to show up
+
+== General ==
+
+- fixed a bug that would write comments to random keys while saving the page
