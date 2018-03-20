@@ -10,12 +10,12 @@ Functionality:
 
 - expanded the settings dialog to include all the keys of settings.xml
 - literals of a bracket can now be edited by rightclicking on the team text field -> "view literal"
-- added auto uploader, which will auto save the page every 45s
 
 Behaviour:
 
-- links with hashtags like "#Results" will now direct to the underlieing page
+- links with hashtags like "#Results" will now direct to the underlying page
 - clicking "new game" in the Live Updater will now automatically set a games winner
+- opening a live updater will set the match score to 0-0 if not already set
 
 Bugs:
 
@@ -28,15 +28,14 @@ Functionality:
 
 - OT can now be set directly within the Live Updater
 
-Bugs
+Bugs:
 
 - literals of brackets are no longer deleted if they include a "BracketDesc" template
 
 == Overwatch ==
 
-Bugs
+Bugs:
 
-- literals of brackets are no longer deleted if they include a "BracketDesc" template
 - fixed a bug that prevented some matchlists from opening
 
 ******************
