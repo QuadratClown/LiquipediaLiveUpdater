@@ -1,6 +1,34 @@
 Changelog Live Updater
 
 ******************
+***** BETA 5 *****
+******************
+
+== General ==
+
+IMPORTANT:
+
+- Program is now compiled to work with Java 10. Please update your Java version!
+<http://www.oracle.com/technetwork/java/javase/downloads/jre10-downloads-4417026.html>
+
+Functionality:
+
+- Auto saving can now be started and stopped within the Live Updater window
+- Brackets are now pannable to make scrolling easier
+
+Bugs:
+
+- "http://" is no longer supported by the Liquipedia API. The tool now uses "https://"
+- Icons for maximize, minimize and close button in fullscreen now display correctly while hovering over them
+- bracket columns of upper and lower bracket are now correctly aligned
+- Values unhidden by the Live Updater Window will now automatically show up in the BracketMatchSummary popup
+
+Design:
+
+- Application font changed to Leelawadee UI Semilight
+- MatchList and Bracket headers are now in wiki colors
+
+******************
 ***** BETA 4 *****
 ******************
 
