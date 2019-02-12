@@ -1,6 +1,16 @@
 Changelog Live Updater
 
 ******************
+***** BETA 6 *****
+******************
+
+== General ==
+
+IMPORTANT:
+
+- Program is now compiled to work with Java 8. Oracle changed their license agreement, which made this change necessary
+
+******************
 ***** BETA 5 *****
 ******************
 
