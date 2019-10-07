@@ -1,6 +1,14 @@
 Changelog Live Updater
 
 ******************
+***** BETA 7 *****
+******************
+
+== General ==
+
+- Lua brackets cause a page to load empty. Lua templates can now be ignored by adding "|misc=#luatemplate" as key to the affected template
+
+******************
 ***** BETA 6 *****
 ******************
 
