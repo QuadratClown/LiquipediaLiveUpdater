@@ -1,1 +1,0 @@
-java -jar ./BD2_107.jar

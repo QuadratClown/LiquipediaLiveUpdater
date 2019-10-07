@@ -1,6 +1,16 @@
 Changelog Live Updater
 
 ******************
+***** BETA 8 *****
+******************
+
+== General ==
+
+- new error message if you try to start the tool without having '.data/settings.xml' present
+- solved compatibility issues with new Java versions (9+)
+- increased default Java VM memory to avoid OutOfMemory errors
+
+******************
 ***** BETA 7 *****
 ******************
 
