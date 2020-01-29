@@ -1,1 +1,0 @@
-java -Xms1g -Xmx2g -jar ./BD2_108.jar

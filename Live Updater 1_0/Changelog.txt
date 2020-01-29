@@ -1,6 +1,20 @@
 Changelog Live Updater
 
 ******************
+** VERSION 1.0 ***
+******************
+
+The live updater is wrapped up for now. That means the beta (lol) finally ended.
+
+== General ==
+
+- removed overwatch support. This app is now aimed at RL only
+- The main view is now organized in tabs; "Sections" includes the known bracket/matchlists encapsulated in sections, "Raw" allows to edit the raw wiki code
+- added missing maps to map pool, including "default" for advantages in double elimination grand finals
+- updated to the new wiki color scheme
+- added OTlength and vodgame to live updater view
+
+******************
 ***** BETA 8 *****
 ******************
 

@@ -1,0 +1,22 @@
+<html>
+ <head></head> 
+ <body> 
+  <div class="settings"> 
+   <div class="default"> 
+    <div class="game" value="rocketleague" choices="Rocket League"></div> 
+    <div class="animated" value="false" choices="true|false"></div> 
+   </div> 
+   <div class="rocketleague"> 
+    <div class="bracket-match-team" value="@team"></div> 
+    <div class="bracket-match-win" value="@win"></div> 
+    <div class="bracket-match-score" value="@score"></div> 
+    <div class="username" value=""></div> 
+    <div class="password" value=""></div> 
+    <div class="bracket-match-keys" value="@|@team!|@literal|@score!|@win!$"></div> 
+    <div class="bracket-match-summary-map-keys" value="@|@win$|@t1score|@t1goals$|@t2score|@t2goals$"></div> 
+    <div class="maps" value="DFH Stadium|DFH Stadium (Stormy)|DFH Stadium (Day)|Mannfield|Mannfield (Night)|Mannfield (Stormy)|Mannfield (Day)|Mannfield (Stormy)|Urban Central|Urban Central (Night)|Urban Central (Dawn)|Utopia Coliseum|Utopia Coliseum (Dusk)|Utopia Coliseum (Snowy)|Wasteland|Wasteland (Night)|Neo Tokyo|Aquadome|Starbase ARC|Champions Field|Champions Field (Day)|Beckwith Park|Farmstead|Rivals Arena|Salty Shores|Salty Shores (Night)|Dunk House|Forbidden Temple|default"></div> 
+    <div class="ignore-templates" value="Abbr|BracketDesc|team"></div> 
+   </div> 
+  </div>  
+ </body>
+</html>
