@@ -8,7 +8,7 @@ Changelog Live Updater
 
 - added option to start the auto saver with different periods (45s, 90s, 3min, 5min)
 - moved save time indicator to status bar
-- fixed a bug that caused the live upater window not scale correctly
+- fixed a bug that caused the live updater window to not scale correctly
 - removed team icons
 - general optimization
 
